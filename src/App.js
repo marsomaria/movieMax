@@ -1,8 +1,9 @@
 
 import './App.css';
 import {useEffect, useState} from "react";
-import Movie from "./Movie.js";
-import Filter from "./Filter.js"
+import Movie from "./components/Movie.js";
+import Filter from "./components/Filter.js"
+import NavBar from "./components/NavBar.js";
 import {motion, AnimatePresence } from "framer-motion";
 
 //https://developers.themoviedb.org/3/genres/get-movie-list
